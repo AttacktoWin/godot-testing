@@ -1,0 +1,12 @@
+C:\Users\shash\Documents\CodeTesting\Godot\DialogueSystemTest\.mono\temp\bin\Debug\Dialogue System Test.deps.json
+C:\Users\shash\Documents\CodeTesting\Godot\DialogueSystemTest\.mono\temp\bin\Debug\Dialogue System Test.dll
+C:\Users\shash\Documents\CodeTesting\Godot\DialogueSystemTest\.mono\temp\bin\Debug\Dialogue System Test.pdb
+C:\Users\shash\Documents\CodeTesting\Godot\DialogueSystemTest\.mono\temp\obj\Debug\Dialogue System Test.csproj.AssemblyReference.cache
+C:\Users\shash\Documents\CodeTesting\Godot\DialogueSystemTest\.mono\temp\obj\Debug\Dialogue System Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shash\Documents\CodeTesting\Godot\DialogueSystemTest\.mono\temp\obj\Debug\Dialogue System Test.AssemblyInfoInputs.cache
+C:\Users\shash\Documents\CodeTesting\Godot\DialogueSystemTest\.mono\temp\obj\Debug\Dialogue System Test.AssemblyInfo.cs
+C:\Users\shash\Documents\CodeTesting\Godot\DialogueSystemTest\.mono\temp\obj\Debug\Dialogue System Test.csproj.CoreCompileInputs.cache
+C:\Users\shash\Documents\CodeTesting\Godot\DialogueSystemTest\.mono\temp\obj\Debug\Dialogue System Test.dll
+C:\Users\shash\Documents\CodeTesting\Godot\DialogueSystemTest\.mono\temp\obj\Debug\refint\Dialogue System Test.dll
+C:\Users\shash\Documents\CodeTesting\Godot\DialogueSystemTest\.mono\temp\obj\Debug\Dialogue System Test.pdb
+C:\Users\shash\Documents\CodeTesting\Godot\DialogueSystemTest\.mono\temp\obj\Debug\ref\Dialogue System Test.dll
