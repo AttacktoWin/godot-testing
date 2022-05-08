@@ -1,7 +1,6 @@
 using Godot;
-using System;
 
-public class Dialogue
+public class Dialogue : Object
 {
     public int Id { get; set; }
     public Line[] Lines { get; set; }

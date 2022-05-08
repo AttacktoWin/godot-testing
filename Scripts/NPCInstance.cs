@@ -1,24 +1,23 @@
 using Godot;
-using System;
 
-public class CharacterInstance : Node2D
+public class NPCInstance : Node2D
 {
     // Declare member variables here. Examples:
     // private int a = 2;
     // private string b = "text";
-    [Export(PropertyHint.Range, "0,9,1")]
-    private int Id = 0;
+    [Export]
+    private string Id = "";
 
     // Called when the node enters the scene tree for the first time.
     public override void _Ready()
     {
-        
+       EmitSignal(nameof(GetDialogue), Id);
     }
 
 
     [Signal]
-    public delegate void ViewedDialogue(CharacterDialogue dialogue);
+    public delegate void ViewedDialogue(NPCDialogue dialogue);
 
     [Signal]
-    public delegate Dialogue GetDialogue(int characterId);
+    public delegate void GetDialogue(string npcId);
 }

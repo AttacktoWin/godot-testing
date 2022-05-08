@@ -1,7 +1,6 @@
 using Godot;
-using System;
 
-public class Line
+public class Line : Object
 {
     public string CharacterName { get; set; }
     public string PortraitName { get; set; }
