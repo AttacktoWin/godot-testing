@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\shash\\Documents\\CodeTesting\\Godot\\DialogueSystemTest\\Dialogue System Test.csproj": {}
+    "c:\\Users\\shash\\Documents\\CodeTesting\\Godot\\DialogueSystemTest\\Dialogue System Test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\shash\\Documents\\CodeTesting\\Godot\\DialogueSystemTest\\Dialogue System Test.csproj": {
+    "c:\\Users\\shash\\Documents\\CodeTesting\\Godot\\DialogueSystemTest\\Dialogue System Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shash\\Documents\\CodeTesting\\Godot\\DialogueSystemTest\\Dialogue System Test.csproj",
+        "projectUniqueName": "c:\\Users\\shash\\Documents\\CodeTesting\\Godot\\DialogueSystemTest\\Dialogue System Test.csproj",
         "projectName": "Dialogue System Test",
-        "projectPath": "C:\\Users\\shash\\Documents\\CodeTesting\\Godot\\DialogueSystemTest\\Dialogue System Test.csproj",
+        "projectPath": "c:\\Users\\shash\\Documents\\CodeTesting\\Godot\\DialogueSystemTest\\Dialogue System Test.csproj",
         "packagesPath": "C:\\Users\\shash\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shash\\Documents\\CodeTesting\\Godot\\DialogueSystemTest\\.mono\\temp\\obj\\",
+        "outputPath": "c:\\Users\\shash\\Documents\\CodeTesting\\Godot\\DialogueSystemTest\\.mono\\temp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\shash\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,7 +39,7 @@
       "frameworks": {
         "net472": {
           "targetAlias": "net472",
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
