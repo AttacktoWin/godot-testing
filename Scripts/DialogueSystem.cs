@@ -18,8 +18,8 @@ public class DialogueSystem : Node2D
             }
         }
 
-        this.Connect(nameof(NPCInstance.ViewedDialogue), this, nameof(DialogueViewed));
-        this.Connect(nameof(NPCInstance.GetDialogue), this, nameof(GetTopDialogue));
+        // this.Connect(nameof(NPCInstance.ViewedDialogue), this, nameof(DialogueViewed));
+        // this.Connect(nameof(NPCInstance.GetDialogue), this, nameof(GetTopDialogue));
     }
 
     private void DialogueViewed(NPCDialogue dialogue)

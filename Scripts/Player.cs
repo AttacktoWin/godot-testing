@@ -14,6 +14,9 @@ public class Player : KinematicBody2D
     private float deceleration = 300.0f;
     private Vector2 velocity =  Vector2.Zero;
     private Vector2 ScreenSize;
+    [Export]
+    private int maxHealth = 10;
+    private int health = 10;
 
 
     // Called when the node enters the scene tree for the first time.
@@ -47,5 +50,17 @@ public class Player : KinematicBody2D
     {
         GetInput();
         velocity = MoveAndSlide(velocity);
+    }
+
+    public void OnHit(int damage)
+    {
+        // Possibly change damage to an object with more info on statuses and the like
+        health--;
+        GD.Print($"hit! Health remaining: {health}");
+        if (health == 0)
+        {
+            GD.Print("You Died");
+            QueueFree();
+        }
     }
 }
