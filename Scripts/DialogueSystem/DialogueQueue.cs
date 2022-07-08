@@ -75,7 +75,7 @@ public class DialogueQueue : Object
     public void Enqueue(Dialogue dialogue)
     {
         int i = Size;
-        dialogueHeap[i] = dialogue;
+        dialogueHeap.Add(dialogue);
         Size++;
 
         while (i != 0 && dialogueHeap[i].Priority < dialogueHeap[Parent(i)].Priority)
@@ -114,7 +114,7 @@ public class DialogueQueue : Object
         return root;
     }
 
-    public void Remove(int itemId)
+    public void Remove(string itemId)
     {
         var key = dialogueHeap.FindIndex(e => e.Id == itemId);
         if (key >= 0)
@@ -124,9 +124,9 @@ public class DialogueQueue : Object
         }
     }
 
-    public int[] GetContents()
+    public string[] GetContents()
     {
-        int[] contents = new int[Size];
+        string[] contents = new string[Size];
         int i = 0;
         foreach(Dialogue dialogue in dialogueHeap)
         {

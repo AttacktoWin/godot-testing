@@ -1,0 +1,14 @@
+{
+    "NPC1-default": [
+        {
+            "NPCId": "NPC1",
+            "DialogueId": "second"
+        }
+    ],
+    "NPC1-second": [
+        {
+            "NPCId": "NPC1",
+            "DialogueId": "default"
+        }
+    ]
+}

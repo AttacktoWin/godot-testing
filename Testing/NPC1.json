@@ -1,0 +1,41 @@
+{
+    "default": {
+        "Id": "default",
+        "Pieces": [
+            {
+                "DisplayName": "???",
+                "Contents": "Ah, greetings player.",
+                "PortraitName": "???.jpg",
+                "SoundEffectName": "Ominous.ogg",
+                "PieceType": "Line"
+            },
+            {
+                "DisplayName": "Karl",
+                "Contents": "My name is Karl, and this is the zone of testing.",
+                "PortraitName": "Karl.jpg",
+                "SoundEffectName": "Happy.ogg",
+                "PieceType": "Line"
+            }
+        ],
+        "Priority": 99
+    },
+    "second": {
+        "Id": "second",
+        "Pieces": [
+            {
+                "DisplayName": "Karl",
+                "Contents": "I'm not entirely sure how you got here.",
+                "PortraitName": "Karl.jpg",
+                "SoundEffectName": "Question.ogg",
+                "PieceType": "Line"
+            },
+            {
+                "DisplayName": "Karl (Currently Hiring)",
+                "Contents": "But perhaps you'd like to join us as a developer?",
+                "ChoiceId": "JobOffer",
+                "Options": ["Of course!", "Nah"],
+                "PieceType": "Choice"
+            }
+        ]
+    }
+}

@@ -3,4 +3,8 @@
     <TargetFramework>net472</TargetFramework>
     <RootNamespace>DialogueSystemTest</RootNamespace>
   </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="JsonSubTypes" Version="1.9.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
 </Project>

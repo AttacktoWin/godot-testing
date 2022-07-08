@@ -2,7 +2,7 @@ using Godot;
 
 public class Dialogue : Object
 {
-    public int Id { get; set; }
-    public Line[] Lines { get; set; }
+    public string Id { get; set; }
+    public DialoguePiece[] Pieces { get; set; }
     public int Priority { get; set; }
 }
